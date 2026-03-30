@@ -1,0 +1,3 @@
+QUESTION 1: State that the ping command failed as expected, confirming the VM is successfully air-gapped from the internet.
+
+QUESTION 2: Explain that Bridged Mode is dangerous because it makes the VM appear as a separate physical device on your home network, giving malware a direct path to attack your other devices (like your phone or personal PC).
