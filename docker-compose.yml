@@ -1,0 +1,21 @@
+
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress
+    networks:
+      - frontend
+      - backend
+
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
+    networks:
+      - backend
+
+networks:
+  frontend:
+  backend:
+    internal: true
