@@ -1,0 +1,28 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:61:ef:81 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 85974sec preferred_lft 85974sec
+    inet6 fd17:625c:f037:2:656a:d73c:fc58:b5bb/64 scope global temporary dynamic 
+       valid_lft 86303sec preferred_lft 14303sec
+    inet6 fd17:625c:f037:2:a00:27ff:fe61:ef81/64 scope global dynamic mngtmpaddr 
+       valid_lft 86303sec preferred_lft 14303sec
+    inet6 fe80::a00:27ff:fe61:ef81/64 scope link 
+       valid_lft forever preferred_lft forever
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=0 ttl=255 time=0.000 ms
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 0 0 0 0 0 0 0 ee 2a bb 69 0 0 0 0 b2 81 a 0 0 0 0 0 d7 ab 6e ad a0 59 65 52 
+#48	4 63 d3 5a 26 13 e9 34 
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=255 time=293 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=255 time=209 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=255 time=441 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3010ms
+rtt min/avg/max/mdev = 0.000/235.635/441.257/159.515 ms, pipe 2

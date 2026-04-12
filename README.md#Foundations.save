@@ -1,0 +1,37 @@
+#Foundations Lab Final 
+#Professional Introductions 
+My name is muhammed Yusif, and I am Cybersecurity and systems infrastructure. This lab project demonstrates foundational technical competencies in virtualization, Linux system configuration, and version control using Git and GitHub. The purpose of this respository is to document my lab environment, verify system readiness, and connect practical implementation to core cybersecurity principles.
+
+---
+
+## Cybersecurity Focus
+
+My academic focus centers on cybersecurity infrastructure, governance, and operational security. This lab environment simulates a controlled virtualized system that supports secure experimentation, confirguration testing, and tool valiadtion. By using virtualization and version control, I establish a structured and auditable environment aligned with cybersecurity best practices.
+
+---
+
+## Security Foundations: Governance & Frameworks
+
+## CIA Triad
+
+The CIA Triad represents the three core objectives of cybersecurity:
+
+-Confidentiality ensures that sensitive information is accessible only to authorized individuals.
+-Integrity guarantess that data remains accurate, unaltered, and trustworthy.
+-Availability enusres systems and information remain accessible when needed.
+
+These principles form the foundation of secure system design (NIST,2018).
+
+---
+
+##AAA Framework
+
+The AAA Framework stands for:
+-Authentication: Verifying identity
+-Authorization: Tracking and logging user actions.
+
+AAA ensures that only legitmate users access systems and that their activities are monitored for accountability. This framework strengthens both integrity and confidentiality within cybersecurity environments (CNSS, 2010).
+
+---
+
+## Governance and Cybersecurity  
