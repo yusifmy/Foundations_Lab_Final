@@ -1,0 +1,15 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: Muhammed Yusif 
+Date: 04/15/2026
+
+Confidence Audit (Yes/No):
+1. Nmap (Network Scanning): [Yes ]
+2. Docker (Containerization): [Yes ]
+3. Linux Hardening (UFW/chmod): [ Yes]
+4. VS Code Remote-SSH: [ Yes]
+
+Identify your weakest area and your plan to review it:
+y weakest area was troubleshooting Docker port conflicts (Layer 4), as it was initially unclear why the bind failed. My plan is to review the sudo ss -tlnp command to better identify which processes are squatting on specific ports in the future."
+==================================================
